@@ -6,8 +6,6 @@
 
 3. Log into the Vagrant box
   `vagrant ssh`
-  `cd /vagrant`
-  `npm install`
-  `bower install`
+  
 
-4. Got to http://127.0.0.1:9000 on the host machine
+4. sudo and make dir data/db for mongodb
