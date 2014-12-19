@@ -16,7 +16,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # doesn't already exist on the user's system.
   config.vm.box_url = "http://files.vagrantup.com/precise32.box"
 
-  config.vm.synced_folder "/home/developer/projects", "/home/vagrant", create: true
+  config.vm.synced_folder "/home/developer/apps", "/home/vagrant", create: true
 
   config.vm.provider "virtualbox" do |v|
     v.name = "MEAN_STACK"

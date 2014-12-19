@@ -1,1 +1,4 @@
-.vagrant
+# Created by https://www.gitignore.io
+
+### Vagrant ###
+.vagrant/

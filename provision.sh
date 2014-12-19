@@ -32,6 +32,7 @@ sudo apt-get update
 # Install MongoDB
 sudo apt-get -y install mongodb-org
 
+
 #install node
 sudo add-apt-repository -y ppa:chris-lea/node.js
 sudo apt-get update
@@ -39,7 +40,8 @@ sudo apt-get install -y nodejs
 
 
 # Install generator-angular-fullstack
-sudo npm install -g yo generator-angular-fullstack grunt grunt-cli gulp bower supervisor
+sudo npm install npm@latest -g yo generator-angular generator-angular-fullstack grunt grunt-cli gulp bower supervisor slush slush-y slush-meanjs
+#sudo npm install -g yo generator-angular generator-angular-fullstack grunt grunt-cli gulp bower supervisor slush slush-y slush-meanjs
 
 ## Update Ruby gems and install compass
 #gem update --system && gem install compass
